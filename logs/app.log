@@ -1,0 +1,282 @@
+2025-06-28 19:09:16,038 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-28 19:09:16,038 [INFO] [33mPress CTRL+C to quit[0m
+2025-06-28 19:09:16,039 [INFO]  * Restarting with stat
+2025-06-28 19:09:16,591 [WARNING]  * Debugger is active!
+2025-06-28 19:09:16,593 [INFO]  * Debugger PIN: 213-658-956
+2025-06-28 19:09:21,162 [INFO] 127.0.0.1 - - [28/Jun/2025 19:09:21] "GET / HTTP/1.1" 200 -
+2025-06-28 19:09:21,259 [INFO] 127.0.0.1 - - [28/Jun/2025 19:09:21] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-06-28 19:09:21,259 [INFO] 127.0.0.1 - - [28/Jun/2025 19:09:21] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-06-28 19:09:21,260 [INFO] 127.0.0.1 - - [28/Jun/2025 19:09:21] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+2025-06-28 19:09:21,261 [INFO] 127.0.0.1 - - [28/Jun/2025 19:09:21] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+2025-06-28 19:09:21,426 [INFO] 127.0.0.1 - - [28/Jun/2025 19:09:21] "GET /swagger.json HTTP/1.1" 200 -
+2025-06-28 19:09:21,717 [INFO]  * Detected change in 'C:\\Users\\Ku\\KuProjectPython\\kinobaza\\app\\utils\\logger.py', reloading
+2025-06-28 19:09:21,805 [INFO]  * Restarting with stat
+2025-06-28 19:09:22,399 [WARNING]  * Debugger is active!
+2025-06-28 19:09:22,400 [INFO]  * Debugger PIN: 213-658-956
+2025-06-28 19:11:40,813 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-28 19:11:40,814 [INFO] [33mPress CTRL+C to quit[0m
+2025-06-28 19:11:40,815 [INFO]  * Restarting with stat
+2025-06-28 19:11:41,370 [WARNING]  * Debugger is active!
+2025-06-28 19:11:41,371 [INFO]  * Debugger PIN: 213-658-956
+2025-06-28 19:12:21,576 [INFO] 127.0.0.1 - - [28/Jun/2025 19:12:21] "GET /movies/1 HTTP/1.1" 200 -
+2025-06-28 19:12:25,155 [INFO] 127.0.0.1 - - [28/Jun/2025 19:12:25] "GET /movies/2 HTTP/1.1" 200 -
+2025-06-28 19:12:27,244 [INFO] 127.0.0.1 - - [28/Jun/2025 19:12:27] "GET /movies/1 HTTP/1.1" 200 -
+2025-06-28 19:12:28,619 [INFO] 127.0.0.1 - - [28/Jun/2025 19:12:28] "GET /movies/3 HTTP/1.1" 200 -
+2025-06-28 19:14:47,057 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-28 19:14:47,057 [INFO] [33mPress CTRL+C to quit[0m
+2025-06-28 19:14:47,058 [INFO]  * Restarting with stat
+2025-06-28 19:14:47,607 [WARNING]  * Debugger is active!
+2025-06-28 19:14:47,609 [INFO]  * Debugger PIN: 213-658-956
+2025-06-28 19:14:48,538 [INFO] 127.0.0.1 - - [28/Jun/2025 19:14:48] "GET / HTTP/1.1" 200 -
+2025-06-28 19:14:48,700 [INFO] 127.0.0.1 - - [28/Jun/2025 19:14:48] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+2025-06-28 19:14:48,703 [INFO] 127.0.0.1 - - [28/Jun/2025 19:14:48] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-06-28 19:14:48,703 [INFO] 127.0.0.1 - - [28/Jun/2025 19:14:48] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+2025-06-28 19:14:48,704 [INFO] 127.0.0.1 - - [28/Jun/2025 19:14:48] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-06-28 19:14:48,874 [INFO] 127.0.0.1 - - [28/Jun/2025 19:14:48] "GET /swagger.json HTTP/1.1" 200 -
+2025-06-28 19:19:09,705 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-28 19:19:09,705 [INFO] [33mPress CTRL+C to quit[0m
+2025-06-28 19:19:09,706 [INFO]  * Restarting with stat
+2025-06-28 19:19:10,287 [WARNING]  * Debugger is active!
+2025-06-28 19:19:10,289 [INFO]  * Debugger PIN: 213-658-956
+2025-06-28 19:20:24,862 [INFO] 127.0.0.1 - - [28/Jun/2025 19:20:24] "[33mGET /search?q=ќмерзительна€%20восьмЄрка HTTP/1.1[0m" 404 -
+2025-06-28 19:20:34,714 [INFO] 127.0.0.1 - - [28/Jun/2025 19:20:34] "[33mGET /search?q=ќмерзительна€восьмЄрка HTTP/1.1[0m" 404 -
+2025-06-28 19:20:38,159 [INFO] 127.0.0.1 - - [28/Jun/2025 19:20:38] "[33mGET /search?q=ќмерзительна€ HTTP/1.1[0m" 404 -
+2025-06-28 19:20:45,675 [INFO] 127.0.0.1 - - [28/Jun/2025 19:20:45] "[33mGET /search?q=интерстеллар HTTP/1.1[0m" 404 -
+2025-06-28 19:29:24,474 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-28 19:29:24,475 [INFO] [33mPress CTRL+C to quit[0m
+2025-06-28 19:29:24,475 [INFO]  * Restarting with stat
+2025-06-28 19:29:25,035 [WARNING]  * Debugger is active!
+2025-06-28 19:29:25,036 [INFO]  * Debugger PIN: 213-658-956
+2025-06-28 19:32:41,565 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-28 19:32:41,565 [INFO] [33mPress CTRL+C to quit[0m
+2025-06-28 19:32:41,566 [INFO]  * Restarting with stat
+2025-06-28 19:32:42,123 [WARNING]  * Debugger is active!
+2025-06-28 19:32:42,125 [INFO]  * Debugger PIN: 213-658-956
+2025-06-28 19:32:43,593 [INFO] 127.0.0.1 - - [28/Jun/2025 19:32:43] "GET / HTTP/1.1" 200 -
+2025-06-28 19:32:43,748 [INFO] 127.0.0.1 - - [28/Jun/2025 19:32:43] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+2025-06-28 19:32:43,749 [INFO] 127.0.0.1 - - [28/Jun/2025 19:32:43] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-06-28 19:32:43,750 [INFO] 127.0.0.1 - - [28/Jun/2025 19:32:43] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+2025-06-28 19:32:43,751 [INFO] 127.0.0.1 - - [28/Jun/2025 19:32:43] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-06-28 19:32:43,911 [INFO] 127.0.0.1 - - [28/Jun/2025 19:32:43] "GET /swagger.json HTTP/1.1" 200 -
+2025-06-28 19:32:54,953 [INFO] 127.0.0.1 - - [28/Jun/2025 19:32:54] "[32mGET /movies HTTP/1.1[0m" 308 -
+2025-06-28 19:32:54,955 [DEBUG] GET /movies Ч page=1, per_page=10, director=None, genre=None, sort=None
+2025-06-28 19:32:54,970 [INFO] 127.0.0.1 - - [28/Jun/2025 19:32:54] "GET /movies/ HTTP/1.1" 200 -
+2025-06-28 19:33:00,352 [INFO] 127.0.0.1 - - [28/Jun/2025 19:33:00] "[32mGET /movies HTTP/1.1[0m" 308 -
+2025-06-28 19:33:00,355 [DEBUG] GET /movies Ч page=1, per_page=10, director=None, genre=None, sort=None
+2025-06-28 19:33:00,360 [INFO] 127.0.0.1 - - [28/Jun/2025 19:33:00] "GET /movies/ HTTP/1.1" 200 -
+2025-06-28 19:33:24,251 [INFO] 127.0.0.1 - - [28/Jun/2025 19:33:24] "GET /movies/2 HTTP/1.1" 200 -
+2025-06-28 19:37:02,419 [INFO] 127.0.0.1 - - [28/Jun/2025 19:37:02] "[32mPOST /movies HTTP/1.1[0m" 308 -
+2025-06-28 19:37:02,422 [INFO] 127.0.0.1 - - [28/Jun/2025 19:37:02] "[31m[1mPOST /movies/ HTTP/1.1[0m" 400 -
+2025-06-28 19:37:17,529 [INFO] 127.0.0.1 - - [28/Jun/2025 19:37:17] "[32mPOST /movies HTTP/1.1[0m" 308 -
+2025-06-28 19:37:17,550 [INFO] 127.0.0.1 - - [28/Jun/2025 19:37:17] "[35m[1mPOST /movies/ HTTP/1.1[0m" 201 -
+2025-06-28 19:38:22,054 [INFO] 127.0.0.1 - - [28/Jun/2025 19:38:22] "PUT /movies/17 HTTP/1.1" 200 -
+2025-06-28 19:38:30,581 [INFO] 127.0.0.1 - - [28/Jun/2025 19:38:30] "PUT /movies/17 HTTP/1.1" 200 -
+2025-06-28 19:38:40,727 [INFO] 127.0.0.1 - - [28/Jun/2025 19:38:40] "DELETE /movies/17 HTTP/1.1" 200 -
+2025-06-28 19:38:46,382 [INFO] 127.0.0.1 - - [28/Jun/2025 19:38:46] "[33mGET /movies/17 HTTP/1.1[0m" 404 -
+2025-06-28 19:38:49,182 [INFO] 127.0.0.1 - - [28/Jun/2025 19:38:49] "GET /movies/16 HTTP/1.1" 200 -
+2025-06-28 19:38:57,269 [INFO] 127.0.0.1 - - [28/Jun/2025 19:38:57] "GET /movies/2 HTTP/1.1" 200 -
+2025-06-28 19:39:00,845 [INFO] 127.0.0.1 - - [28/Jun/2025 19:39:00] "GET /movies/16 HTTP/1.1" 200 -
+2025-06-28 19:39:03,318 [INFO] 127.0.0.1 - - [28/Jun/2025 19:39:03] "GET /movies/13 HTTP/1.1" 200 -
+2025-06-28 19:39:08,596 [INFO] 127.0.0.1 - - [28/Jun/2025 19:39:08] "GET /movies/1 HTTP/1.1" 200 -
+2025-06-28 19:40:46,234 [INFO] 127.0.0.1 - - [28/Jun/2025 19:40:46] "GET /movies/search?q=начало HTTP/1.1" 200 -
+2025-06-28 19:40:53,127 [INFO] 127.0.0.1 - - [28/Jun/2025 19:40:53] "GET /movies/search?q=Ќачало HTTP/1.1" 200 -
+2025-06-28 19:41:22,628 [INFO] 127.0.0.1 - - [28/Jun/2025 19:41:22] "GET /directors/ HTTP/1.1" 200 -
+2025-06-28 19:41:37,427 [INFO] 127.0.0.1 - - [28/Jun/2025 19:41:37] "[31m[1mPOST /directors/ HTTP/1.1[0m" 415 -
+2025-06-28 19:42:19,405 [INFO] 127.0.0.1 - - [28/Jun/2025 19:42:19] "[32mGET /directors HTTP/1.1[0m" 308 -
+2025-06-28 19:42:19,408 [INFO] 127.0.0.1 - - [28/Jun/2025 19:42:19] "GET /directors/ HTTP/1.1" 200 -
+2025-06-28 19:43:20,595 [INFO] 127.0.0.1 - - [28/Jun/2025 19:43:20] "[32mPOST /directors HTTP/1.1[0m" 308 -
+2025-06-28 19:43:20,611 [INFO] 127.0.0.1 - - [28/Jun/2025 19:43:20] "[35m[1mPOST /directors/ HTTP/1.1[0m" 201 -
+2025-06-28 19:43:25,325 [INFO] 127.0.0.1 - - [28/Jun/2025 19:43:25] "[32mGET /directors HTTP/1.1[0m" 308 -
+2025-06-28 19:43:25,330 [INFO] 127.0.0.1 - - [28/Jun/2025 19:43:25] "GET /directors/ HTTP/1.1" 200 -
+2025-06-28 19:43:41,928 [INFO] 127.0.0.1 - - [28/Jun/2025 19:43:41] "[33mPUT /directors HTTP/1.1[0m" 404 -
+2025-06-28 19:43:47,009 [INFO] 127.0.0.1 - - [28/Jun/2025 19:43:47] "[33mPATCH /directors HTTP/1.1[0m" 404 -
+2025-06-28 19:44:06,340 [INFO] 127.0.0.1 - - [28/Jun/2025 19:44:06] "[31m[1mPOST /directors/16 HTTP/1.1[0m" 405 -
+2025-06-28 19:44:15,724 [INFO] 127.0.0.1 - - [28/Jun/2025 19:44:15] "PUT /directors/16 HTTP/1.1" 200 -
+2025-06-28 19:44:20,685 [INFO] 127.0.0.1 - - [28/Jun/2025 19:44:20] "GET /directors/16 HTTP/1.1" 200 -
+2025-06-28 19:44:23,891 [INFO] 127.0.0.1 - - [28/Jun/2025 19:44:23] "[32mGET /directors HTTP/1.1[0m" 308 -
+2025-06-28 19:44:23,894 [INFO] 127.0.0.1 - - [28/Jun/2025 19:44:23] "GET /directors/ HTTP/1.1" 200 -
+2025-06-28 19:44:54,421 [INFO] 127.0.0.1 - - [28/Jun/2025 19:44:54] "[32mGET /genres HTTP/1.1[0m" 308 -
+2025-06-28 19:44:54,425 [INFO] 127.0.0.1 - - [28/Jun/2025 19:44:54] "GET /genres/ HTTP/1.1" 200 -
+2025-06-28 19:45:09,458 [INFO] 127.0.0.1 - - [28/Jun/2025 19:45:09] "[32mGET /directors HTTP/1.1[0m" 308 -
+2025-06-28 19:45:09,462 [INFO] 127.0.0.1 - - [28/Jun/2025 19:45:09] "GET /directors/ HTTP/1.1" 200 -
+2025-06-28 19:45:17,476 [INFO] 127.0.0.1 - - [28/Jun/2025 19:45:17] "DELETE /directors/16 HTTP/1.1" 200 -
+2025-06-28 19:45:20,837 [INFO] 127.0.0.1 - - [28/Jun/2025 19:45:20] "[31m[1mDELETE /directors/ HTTP/1.1[0m" 405 -
+2025-06-28 19:45:25,775 [INFO] 127.0.0.1 - - [28/Jun/2025 19:45:25] "[32mGET /directors HTTP/1.1[0m" 308 -
+2025-06-28 19:45:25,779 [INFO] 127.0.0.1 - - [28/Jun/2025 19:45:25] "GET /directors/ HTTP/1.1" 200 -
+2025-06-28 19:45:34,402 [INFO] 127.0.0.1 - - [28/Jun/2025 19:45:34] "[32mGET /genres HTTP/1.1[0m" 308 -
+2025-06-28 19:45:34,405 [INFO] 127.0.0.1 - - [28/Jun/2025 19:45:34] "GET /genres/ HTTP/1.1" 200 -
+2025-06-28 19:46:05,824 [INFO] 127.0.0.1 - - [28/Jun/2025 19:46:05] "GET /genres/2 HTTP/1.1" 200 -
+2025-06-28 19:46:09,910 [INFO] 127.0.0.1 - - [28/Jun/2025 19:46:09] "[32mGET /genres HTTP/1.1[0m" 308 -
+2025-06-28 19:46:09,914 [INFO] 127.0.0.1 - - [28/Jun/2025 19:46:09] "GET /genres/ HTTP/1.1" 200 -
+2025-06-28 19:46:13,055 [INFO] 127.0.0.1 - - [28/Jun/2025 19:46:13] "[32mPOST /genres HTTP/1.1[0m" 308 -
+2025-06-28 19:46:13,070 [INFO] 127.0.0.1 - - [28/Jun/2025 19:46:13] "[35m[1mPOST /genres/ HTTP/1.1[0m" 201 -
+2025-06-28 19:46:31,790 [INFO] 127.0.0.1 - - [28/Jun/2025 19:46:31] "[31m[1mPATCH /genres/6 HTTP/1.1[0m" 405 -
+2025-06-28 19:46:35,219 [INFO] 127.0.0.1 - - [28/Jun/2025 19:46:35] "PUT /genres/6 HTTP/1.1" 200 -
+2025-06-28 19:46:40,847 [INFO] 127.0.0.1 - - [28/Jun/2025 19:46:40] "[32mGET /genres HTTP/1.1[0m" 308 -
+2025-06-28 19:46:40,850 [INFO] 127.0.0.1 - - [28/Jun/2025 19:46:40] "GET /genres/ HTTP/1.1" 200 -
+2025-06-28 19:46:50,506 [INFO] 127.0.0.1 - - [28/Jun/2025 19:46:50] "DELETE /genres/6 HTTP/1.1" 200 -
+2025-06-28 19:46:56,074 [INFO] 127.0.0.1 - - [28/Jun/2025 19:46:56] "[32mGET /genres HTTP/1.1[0m" 308 -
+2025-06-28 19:46:56,077 [INFO] 127.0.0.1 - - [28/Jun/2025 19:46:56] "GET /genres/ HTTP/1.1" 200 -
+2025-06-30 15:12:34,404 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-30 15:12:34,404 [INFO] [33mPress CTRL+C to quit[0m
+2025-06-30 15:12:34,405 [INFO]  * Restarting with stat
+2025-06-30 15:12:34,960 [WARNING]  * Debugger is active!
+2025-06-30 15:12:34,962 [INFO]  * Debugger PIN: 213-658-956
+2025-06-30 15:20:30,848 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-30 15:20:30,849 [INFO] [33mPress CTRL+C to quit[0m
+2025-06-30 15:20:30,849 [INFO]  * Restarting with stat
+2025-06-30 15:20:31,397 [WARNING]  * Debugger is active!
+2025-06-30 15:20:31,399 [INFO]  * Debugger PIN: 213-658-956
+2025-06-30 15:20:35,540 [INFO]  * Detected change in 'C:\\Users\\Ku\\KuProjectPython\\kinobaza\\app\\views\\user.py', reloading
+2025-06-30 15:20:35,615 [INFO]  * Restarting with stat
+2025-06-30 15:20:36,173 [WARNING]  * Debugger is active!
+2025-06-30 15:20:36,175 [INFO]  * Debugger PIN: 213-658-956
+2025-06-30 15:20:38,262 [INFO]  * Detected change in 'C:\\Users\\Ku\\KuProjectPython\\kinobaza\\app\\views\\user.py', reloading
+2025-06-30 15:20:38,342 [INFO]  * Restarting with stat
+2025-06-30 15:20:38,902 [WARNING]  * Debugger is active!
+2025-06-30 15:20:38,903 [INFO]  * Debugger PIN: 213-658-956
+2025-06-30 15:20:43,020 [INFO]  * Detected change in 'C:\\Users\\Ku\\KuProjectPython\\kinobaza\\app\\views\\user.py', reloading
+2025-06-30 15:20:43,118 [INFO]  * Restarting with stat
+2025-06-30 15:20:43,703 [WARNING]  * Debugger is active!
+2025-06-30 15:20:43,705 [INFO]  * Debugger PIN: 213-658-956
+2025-06-30 15:20:44,777 [INFO]  * Detected change in 'C:\\Users\\Ku\\KuProjectPython\\kinobaza\\app\\views\\user.py', reloading
+2025-06-30 15:20:44,859 [INFO]  * Restarting with stat
+2025-06-30 15:20:45,441 [WARNING]  * Debugger is active!
+2025-06-30 15:20:45,442 [INFO]  * Debugger PIN: 213-658-956
+2025-06-30 15:25:20,562 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-30 15:25:20,562 [INFO] [33mPress CTRL+C to quit[0m
+2025-06-30 15:25:20,563 [INFO]  * Restarting with stat
+2025-06-30 15:25:21,129 [WARNING]  * Debugger is active!
+2025-06-30 15:25:21,131 [INFO]  * Debugger PIN: 213-658-956
+2025-06-30 15:25:38,447 [INFO] 127.0.0.1 - - [30/Jun/2025 15:25:38] "[33mPOST /users/ HTTP/1.1[0m" 404 -
+2025-06-30 15:26:20,328 [INFO] 127.0.0.1 - - [30/Jun/2025 15:26:20] "[33mPOST /users/ HTTP/1.1[0m" 404 -
+2025-06-30 15:26:22,867 [INFO] 127.0.0.1 - - [30/Jun/2025 15:26:22] "[33mPOST /users/ HTTP/1.1[0m" 404 -
+2025-06-30 15:27:26,961 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-30 15:27:26,961 [INFO] [33mPress CTRL+C to quit[0m
+2025-06-30 15:27:26,962 [INFO]  * Restarting with stat
+2025-06-30 15:27:27,522 [WARNING]  * Debugger is active!
+2025-06-30 15:27:27,524 [INFO]  * Debugger PIN: 213-658-956
+2025-06-30 15:27:29,999 [INFO] 127.0.0.1 - - [30/Jun/2025 15:27:29] "[33mPOST /users/ HTTP/1.1[0m" 404 -
+2025-06-30 15:28:17,640 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-30 15:28:17,640 [INFO] [33mPress CTRL+C to quit[0m
+2025-06-30 15:28:17,641 [INFO]  * Restarting with stat
+2025-06-30 15:28:18,203 [WARNING]  * Debugger is active!
+2025-06-30 15:28:18,205 [INFO]  * Debugger PIN: 213-658-956
+2025-06-30 15:28:22,261 [INFO] 127.0.0.1 - - [30/Jun/2025 15:28:22] "[33mPOST /users/ HTTP/1.1[0m" 404 -
+2025-06-30 15:28:24,651 [INFO] 127.0.0.1 - - [30/Jun/2025 15:28:24] "[33mPOST /users/ HTTP/1.1[0m" 404 -
+2025-06-30 15:28:45,628 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-30 15:28:45,629 [INFO] [33mPress CTRL+C to quit[0m
+2025-06-30 15:28:45,629 [INFO]  * Restarting with stat
+2025-06-30 15:28:46,186 [WARNING]  * Debugger is active!
+2025-06-30 15:28:46,187 [INFO]  * Debugger PIN: 213-658-956
+2025-06-30 15:28:48,542 [INFO] 127.0.0.1 - - [30/Jun/2025 15:28:48] "[33mPOST /users/ HTTP/1.1[0m" 404 -
+2025-06-30 15:29:24,200 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-30 15:29:24,200 [INFO] [33mPress CTRL+C to quit[0m
+2025-06-30 15:29:24,201 [INFO]  * Restarting with stat
+2025-06-30 15:29:24,752 [WARNING]  * Debugger is active!
+2025-06-30 15:29:24,753 [INFO]  * Debugger PIN: 213-658-956
+2025-06-30 15:29:27,765 [INFO] 127.0.0.1 - - [30/Jun/2025 15:29:27] "[35m[1mPOST /users/ HTTP/1.1[0m" 201 -
+2025-06-30 17:39:36,413 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-30 17:39:36,413 [INFO] [33mPress CTRL+C to quit[0m
+2025-06-30 17:39:36,414 [INFO]  * Restarting with stat
+2025-06-30 17:39:36,992 [WARNING]  * Debugger is active!
+2025-06-30 17:39:36,993 [INFO]  * Debugger PIN: 213-658-956
+2025-06-30 17:40:10,203 [INFO] 127.0.0.1 - - [30/Jun/2025 17:40:10] "POST /auth/login HTTP/1.1" 200 -
+2025-06-30 17:40:15,526 [INFO] 127.0.0.1 - - [30/Jun/2025 17:40:15] "POST /auth/login HTTP/1.1" 200 -
+2025-06-30 17:40:17,290 [INFO] 127.0.0.1 - - [30/Jun/2025 17:40:17] "POST /auth/login HTTP/1.1" 200 -
+2025-06-30 17:40:18,758 [INFO] 127.0.0.1 - - [30/Jun/2025 17:40:18] "POST /auth/login HTTP/1.1" 200 -
+2025-06-30 17:40:20,200 [INFO] 127.0.0.1 - - [30/Jun/2025 17:40:20] "POST /auth/login HTTP/1.1" 200 -
+2025-06-30 18:08:06,869 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-30 18:08:06,869 [INFO] [33mPress CTRL+C to quit[0m
+2025-06-30 18:08:06,870 [INFO]  * Restarting with stat
+2025-06-30 18:08:07,432 [WARNING]  * Debugger is active!
+2025-06-30 18:08:07,433 [INFO]  * Debugger PIN: 213-658-956
+2025-06-30 18:08:08,609 [INFO] 127.0.0.1 - - [30/Jun/2025 18:08:08] "[31m[1mGET /profile/me HTTP/1.1[0m" 401 -
+2025-06-30 18:08:10,539 [INFO] 127.0.0.1 - - [30/Jun/2025 18:08:10] "GET / HTTP/1.1" 200 -
+2025-06-30 18:08:10,627 [INFO] 127.0.0.1 - - [30/Jun/2025 18:08:10] "GET /swaggerui/swagger-ui-bundle.js HTTP/1.1" 200 -
+2025-06-30 18:08:10,628 [INFO] 127.0.0.1 - - [30/Jun/2025 18:08:10] "GET /swaggerui/swagger-ui.css HTTP/1.1" 200 -
+2025-06-30 18:08:10,629 [INFO] 127.0.0.1 - - [30/Jun/2025 18:08:10] "GET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+2025-06-30 18:08:10,629 [INFO] 127.0.0.1 - - [30/Jun/2025 18:08:10] "GET /swaggerui/droid-sans.css HTTP/1.1" 200 -
+2025-06-30 18:08:10,761 [INFO] 127.0.0.1 - - [30/Jun/2025 18:08:10] "GET /swagger.json HTTP/1.1" 200 -
+2025-06-30 18:08:10,792 [INFO] 127.0.0.1 - - [30/Jun/2025 18:08:10] "GET /swaggerui/favicon-32x32.png HTTP/1.1" 200 -
+2025-06-30 18:14:49,812 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-30 18:14:49,812 [INFO] [33mPress CTRL+C to quit[0m
+2025-06-30 18:14:49,813 [INFO]  * Restarting with stat
+2025-06-30 18:14:50,392 [WARNING]  * Debugger is active!
+2025-06-30 18:14:50,393 [INFO]  * Debugger PIN: 213-658-956
+2025-06-30 18:21:45,334 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-30 18:21:45,334 [INFO] [33mPress CTRL+C to quit[0m
+2025-06-30 18:21:45,335 [INFO]  * Restarting with stat
+2025-06-30 18:21:45,895 [WARNING]  * Debugger is active!
+2025-06-30 18:21:45,896 [INFO]  * Debugger PIN: 213-658-956
+2025-06-30 18:22:02,853 [INFO] 127.0.0.1 - - [30/Jun/2025 18:22:02] "[31m[1mGET /favorites/ HTTP/1.1[0m" 401 -
+2025-06-30 18:22:05,084 [INFO] 127.0.0.1 - - [30/Jun/2025 18:22:05] "[31m[1mGET /favorites/ HTTP/1.1[0m" 401 -
+2025-06-30 18:27:58,753 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-30 18:27:58,753 [INFO] [33mPress CTRL+C to quit[0m
+2025-06-30 18:27:58,754 [INFO]  * Restarting with stat
+2025-06-30 18:27:59,314 [WARNING]  * Debugger is active!
+2025-06-30 18:27:59,316 [INFO]  * Debugger PIN: 213-658-956
+2025-06-30 18:28:20,327 [INFO] 127.0.0.1 - - [30/Jun/2025 18:28:20] "[31m[1mPOST /favorites/1 HTTP/1.1[0m" 401 -
+2025-06-30 18:28:51,339 [INFO] 127.0.0.1 - - [30/Jun/2025 18:28:51] "POST /auth/login HTTP/1.1" 200 -
+2025-06-30 18:29:07,939 [INFO] 127.0.0.1 - - [30/Jun/2025 18:29:07] "[31m[1mPOST /favorites/1 HTTP/1.1[0m" 401 -
+2025-06-30 18:29:16,109 [INFO] 127.0.0.1 - - [30/Jun/2025 18:29:16] "[31m[1mPOST /favorites/1 HTTP/1.1[0m" 401 -
+2025-06-30 18:29:40,568 [INFO] 127.0.0.1 - - [30/Jun/2025 18:29:40] "[32mGET /movies HTTP/1.1[0m" 308 -
+2025-06-30 18:29:40,570 [DEBUG] GET /movies Ч page=1, per_page=10, director=None, genre=None, sort=None
+2025-06-30 18:29:40,582 [INFO] 127.0.0.1 - - [30/Jun/2025 18:29:40] "GET /movies/ HTTP/1.1" 200 -
+2025-06-30 18:29:55,074 [INFO] 127.0.0.1 - - [30/Jun/2025 18:29:55] "GET /movies/1 HTTP/1.1" 200 -
+2025-06-30 18:30:44,450 [INFO] 127.0.0.1 - - [30/Jun/2025 18:30:44] "POST /auth/login HTTP/1.1" 200 -
+2025-06-30 18:31:15,336 [INFO] 127.0.0.1 - - [30/Jun/2025 18:31:15] "[33mGET /some/me HTTP/1.1[0m" 404 -
+2025-06-30 18:32:51,342 [INFO] 127.0.0.1 - - [30/Jun/2025 18:32:51] "[31m[1mGET /auth/login HTTP/1.1[0m" 405 -
+2025-06-30 18:32:59,019 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-30 18:32:59,019 [INFO] [33mPress CTRL+C to quit[0m
+2025-06-30 18:32:59,020 [INFO]  * Restarting with stat
+2025-06-30 18:32:59,613 [WARNING]  * Debugger is active!
+2025-06-30 18:32:59,615 [INFO]  * Debugger PIN: 213-658-956
+2025-06-30 18:33:34,748 [INFO] 127.0.0.1 - - [30/Jun/2025 18:33:34] "POST /auth/login HTTP/1.1" 200 -
+2025-06-30 18:35:56,600 [INFO] 127.0.0.1 - - [30/Jun/2025 18:35:56] "[35m[1mPOST /favorites/1 HTTP/1.1[0m" 201 -
+2025-06-30 18:36:42,001 [INFO] 127.0.0.1 - - [30/Jun/2025 18:36:42] "[35m[1mPOST /favorites/12 HTTP/1.1[0m" 201 -
+2025-07-01 20:10:58,210 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-01 20:10:58,210 [INFO] [33mPress CTRL+C to quit[0m
+2025-07-01 20:10:58,211 [INFO]  * Restarting with stat
+2025-07-01 20:10:58,786 [WARNING]  * Debugger is active!
+2025-07-01 20:10:58,787 [INFO]  * Debugger PIN: 213-658-956
+2025-07-01 20:11:08,041 [INFO]  * Detected change in 'C:\\Users\\Ku\\KuProjectPython\\kinobaza\\app\\__init__.py', reloading
+2025-07-01 20:11:08,116 [INFO]  * Restarting with stat
+2025-07-01 20:11:32,858 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-01 20:11:32,858 [INFO] [33mPress CTRL+C to quit[0m
+2025-07-01 20:11:32,859 [INFO]  * Restarting with stat
+2025-07-01 20:11:33,427 [WARNING]  * Debugger is active!
+2025-07-01 20:11:33,429 [INFO]  * Debugger PIN: 213-658-956
+2025-07-01 20:11:52,941 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-01 20:11:52,941 [INFO] [33mPress CTRL+C to quit[0m
+2025-07-01 20:11:52,942 [INFO]  * Restarting with stat
+2025-07-01 20:11:53,518 [WARNING]  * Debugger is active!
+2025-07-01 20:11:53,519 [INFO]  * Debugger PIN: 213-658-956
+2025-07-01 20:12:03,737 [WARNING] HTTPException: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-07-01 20:12:03,738 [INFO] 127.0.0.1 - - [01/Jul/2025 20:12:03] "[33mGET /213123 HTTP/1.1[0m" 404 -
+2025-07-01 20:12:51,708 [WARNING] HTTPException: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-07-01 20:12:51,708 [INFO] 127.0.0.1 - - [01/Jul/2025 20:12:51] "[33mGET /213123 HTTP/1.1[0m" 404 -
+2025-07-01 20:12:51,755 [WARNING] HTTPException: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-07-01 20:12:51,755 [INFO] 127.0.0.1 - - [01/Jul/2025 20:12:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
