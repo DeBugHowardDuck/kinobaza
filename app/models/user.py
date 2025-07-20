@@ -1,8 +1,5 @@
-from enum import unique
-
-from sqlalchemy.orm import backref
-
 from app.extensions.extensions import db
+from app.models.favorite import favorites
 
 class User(db.Model):
     __tablename__ = 'users'
@@ -11,9 +8,13 @@ class User(db.Model):
     email = db.Column(db.String(100), unique=True, nullable=False)
     password = db.Column(db.String(255), nullable=False)
     name = db.Column(db.String(100), nullable=False)
+    surname = db.Column(db.String(100))
+    favorite_genre = db.Column(db.Integer, db.ForeignKey("genre.id"))
 
     favorites = db.relationship(
         "Movie",
         secondary="favorites",
         backref="favorited_by"
     )
+
+    genre = db.relationship("Genre")

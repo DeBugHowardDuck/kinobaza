@@ -1,5 +1,4 @@
 from app.models.director import Director
-from app.extensions.extensions import db
 
 class DirectorDAO:
     def __init__(self, session):

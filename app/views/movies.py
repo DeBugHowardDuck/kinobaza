@@ -1,7 +1,7 @@
 from flask import request
 from flask_restx import Resource, Namespace
 from marshmallow import ValidationError
-
+from flask_restx import fields
 from app.dao.movie_dao import MovieDAO
 from app.models.movie import Movie
 from app.schemas.movie import MovieSchema
@@ -11,6 +11,7 @@ from app.schemas.movie import MovieRequestSchema
 from math import ceil
 import logging
 from app.services.movie_service import MovieService
+from app.utils.decorators import auth_required
 
 
 
@@ -23,6 +24,17 @@ logger = logging.getLogger(__name__)
 
 movie_dao = MovieDAO(db.session)
 movie_service = MovieService(movie_dao)
+
+movie_model = api.model("MovieRequest", {
+    "title": fields.String(required=True, description="Название фильма"),
+    "description": fields.String(description="Описание"),
+    "trailer": fields.String(description="Ссылка на трейлер"),
+    "year": fields.Integer(required=True, description="Год выпуска"),
+    "rating": fields.Float(required=True, description="Рейтинг от 0 до 10"),
+    "genre_id": fields.Integer(description="ID жанра"),
+    "director_id": fields.Integer(required=True, description="ID режиссёра")
+})
+
 
 @movie_ns.route('/')
 class MovieListView(Resource):
@@ -54,6 +66,8 @@ class MovieListView(Resource):
             "items": movies_schema.dump(result["items"])
         }, 200
 
+    @auth_required
+    @api.expect(movie_model)
     def post(self):
         """
         Добавить новый фильм
@@ -78,6 +92,7 @@ class MovieDetailView(Resource):
             return {"massage": "Кина не будет"}, 404
         return MovieSchema().dump(movie), 200
 
+    @auth_required
     def put(self, movie_id):
         """
         Обновить данные фильма
@@ -94,6 +109,7 @@ class MovieDetailView(Resource):
 
         return movie_schema.dump(updated_movie), 200
 
+    @auth_required
     def delete(self, movie_id):
         """
         Удалить фильм

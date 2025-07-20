@@ -13,12 +13,6 @@ class Movie(db.Model):
     genre_id = db.Column(db.Integer, db.ForeignKey("genre.id"))
     director_id = db.Column(db.Integer, db.ForeignKey("directors.id"))
 
-    favorites = db.Table(
-        "favorites",
-        db.Column("user_id", db.Integer, db.ForeignKey("users.id")),
-        db.Column("movie_id", db.Integer, db.ForeignKey("movie.id"))
-    )
-
     genre = db.relationship("Genre", backref="movies")
     director = db.relationship("Director", backref="movies")
 
