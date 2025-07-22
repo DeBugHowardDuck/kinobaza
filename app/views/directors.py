@@ -1,13 +1,26 @@
-# app/views/directors.py
+
 
 from flask import request
-from flask_restx import Resource, Namespace
+from flask_restx import Resource, Namespace, fields
 from marshmallow import ValidationError
 
 from app.schemas.director import DirectorSchema, DirectorRequestSchema
 from app.dao.director_dao import DirectorDAO
 from app.services.director_service import DirectorService
-from app.extensions.extensions import db
+from app.extensions.extensions import db, api
+
+director_model = api.model("DirectorRequest", {
+    "name": fields.String(required=True, description="Имя режиссёра")
+})
+
+director_response_model = api.model("DirectorResponse", {
+    "id": fields.Integer(description="ID режиссёра"),
+    "name": fields.String(description="Имя режиссёра")
+})
+
+error_model = api.model("Error", {
+    "message": fields.String(description="Сообщение об ошибке")
+})
 
 director_ns = Namespace("directors")
 director_schema = DirectorSchema()
@@ -21,6 +34,8 @@ director_service = DirectorService(director_dao)
 
 @director_ns.route('/')
 class DirectorListView(Resource):
+    @director_ns.doc(description="Получить всех режиссёров")
+    @director_ns.marshal_list_with(director_response_model)
     def get(self):
         """
         Получить всех режиссёров
@@ -28,6 +43,10 @@ class DirectorListView(Resource):
         directors = director_service.get_all()
         return directors_schema.dump(directors), 200
 
+    @director_ns.doc(description="Добавить нового режиссёра")
+    @api.expect(director_model)
+    @api.marshal_with(director_response_model, code=201)
+    @api.response(400, "Ошибка валидации", model=error_model)
     def post(self):
         """
         Добавить нового режиссёра
@@ -44,6 +63,9 @@ class DirectorListView(Resource):
 
 @director_ns.route('/<int:director_id>')
 class DirectorDetailView(Resource):
+    @director_ns.doc(description="Получить режиссёра по ID")
+    @api.marshal_with(director_response_model)
+    @api.response(404, "Режиссёр не найден", model=error_model)
     def get(self, director_id):
         """
         Получить режиссёра по ID
@@ -53,6 +75,11 @@ class DirectorDetailView(Resource):
             return {"message": "Режиссёр не найден"}, 404
         return director_schema.dump(director), 200
 
+    @director_ns.doc(description="Обновить режиссёра")
+    @api.expect(director_model)
+    @api.marshal_with(director_response_model)
+    @api.response(400, "Ошибка валидации", model=error_model)
+    @api.response(404, "Режиссёр не найден", model=error_model)
     def put(self, director_id):
         """
         Обновить данные режиссёра
@@ -69,6 +96,9 @@ class DirectorDetailView(Resource):
 
         return director_schema.dump(updated), 200
 
+    @director_ns.doc(description="Удалить режиссёра")
+    @api.response(200, "Режиссёр удалён")
+    @api.response(404, "Режиссёр не найден", model=error_model)
     def delete(self, director_id):
         """
         Удалить режиссёра

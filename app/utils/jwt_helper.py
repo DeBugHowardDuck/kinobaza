@@ -1,7 +1,8 @@
 import jwt
 import datetime
+import os
 
-JWT_SECRET = "super-secret-key"
+JWT_SECRET = os.getenv("JWT_SECRET", "super-secret-key")
 JWT_ALGORITHM = "HS256"
 JWT_EXP_DELTA_SECONDS = 3600
 

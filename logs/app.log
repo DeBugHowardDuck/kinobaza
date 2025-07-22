@@ -3614,3 +3614,363 @@ TypeError: ProfileView.get() missing 1 required positional argument: 'user_id'
 2025-07-20 14:54:32,239 [INFO] 127.0.0.1 - - [20/Jul/2025 14:54:32] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
 2025-07-20 14:54:32,454 [INFO] 127.0.0.1 - - [20/Jul/2025 14:54:32] "GET /swagger.json HTTP/1.1" 200 -
 2025-07-20 14:54:32,491 [INFO] 127.0.0.1 - - [20/Jul/2025 14:54:32] "[36mGET /swaggerui/favicon-32x32.png HTTP/1.1[0m" 304 -
+2025-07-21 15:23:58,326 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-21 15:23:58,326 [INFO] [33mPress CTRL+C to quit[0m
+2025-07-21 15:23:58,327 [INFO]  * Restarting with stat
+2025-07-21 15:23:58,914 [WARNING]  * Debugger is active!
+2025-07-21 15:23:58,915 [INFO]  * Debugger PIN: 213-658-956
+2025-07-21 15:24:00,218 [INFO] 127.0.0.1 - - [21/Jul/2025 15:24:00] "GET / HTTP/1.1" 200 -
+2025-07-21 15:24:00,353 [INFO] 127.0.0.1 - - [21/Jul/2025 15:24:00] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-07-21 15:24:00,353 [INFO] 127.0.0.1 - - [21/Jul/2025 15:24:00] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-07-21 15:24:00,354 [INFO] 127.0.0.1 - - [21/Jul/2025 15:24:00] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+2025-07-21 15:24:00,355 [INFO] 127.0.0.1 - - [21/Jul/2025 15:24:00] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+2025-07-21 15:24:00,505 [INFO] 127.0.0.1 - - [21/Jul/2025 15:24:00] "GET /swagger.json HTTP/1.1" 200 -
+2025-07-21 15:24:00,514 [INFO] 127.0.0.1 - - [21/Jul/2025 15:24:00] "[36mGET /swaggerui/favicon-32x32.png HTTP/1.1[0m" 304 -
+2025-07-21 15:24:06,611 [INFO] 127.0.0.1 - - [21/Jul/2025 15:24:06] "GET / HTTP/1.1" 200 -
+2025-07-21 15:24:06,651 [INFO] 127.0.0.1 - - [21/Jul/2025 15:24:06] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+2025-07-21 15:24:06,664 [INFO] 127.0.0.1 - - [21/Jul/2025 15:24:06] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+2025-07-21 15:24:06,664 [INFO] 127.0.0.1 - - [21/Jul/2025 15:24:06] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-07-21 15:24:06,665 [INFO] 127.0.0.1 - - [21/Jul/2025 15:24:06] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-07-21 15:24:06,728 [INFO] 127.0.0.1 - - [21/Jul/2025 15:24:06] "GET /swagger.json HTTP/1.1" 200 -
+2025-07-21 15:24:06,729 [INFO] 127.0.0.1 - - [21/Jul/2025 15:24:06] "[36mGET /swaggerui/favicon-32x32.png HTTP/1.1[0m" 304 -
+2025-07-21 15:24:10,205 [INFO] 127.0.0.1 - - [21/Jul/2025 15:24:10] "GET /swagger.json HTTP/1.1" 200 -
+2025-07-21 15:24:10,337 [WARNING] <class 'werkzeug.exceptions.HTTPException'>
+2025-07-21 15:24:10,337 [INFO] 127.0.0.1 - - [21/Jul/2025 15:24:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-21 15:24:39,673 [INFO] 127.0.0.1 - - [21/Jul/2025 15:24:39] "[32mGET /favorites?page=1&per_page=2 HTTP/1.1[0m" 308 -
+2025-07-21 15:24:39,678 [INFO] 127.0.0.1 - - [21/Jul/2025 15:24:39] "[31m[1mGET /favorites/?page=1&per_page=2 HTTP/1.1[0m" 401 -
+2025-07-21 15:24:51,170 [INFO] 127.0.0.1 - - [21/Jul/2025 15:24:51] "[32mGET /favorites?page=1&per_page=2 HTTP/1.1[0m" 308 -
+2025-07-21 15:24:51,173 [INFO] 127.0.0.1 - - [21/Jul/2025 15:24:51] "[31m[1mGET /favorites/?page=1&per_page=2 HTTP/1.1[0m" 401 -
+2025-07-21 15:34:41,243 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-21 15:34:41,243 [INFO] [33mPress CTRL+C to quit[0m
+2025-07-21 15:34:41,244 [INFO]  * Restarting with stat
+2025-07-21 15:34:41,824 [WARNING]  * Debugger is active!
+2025-07-21 15:34:41,825 [INFO]  * Debugger PIN: 213-658-956
+2025-07-21 15:35:59,872 [INFO] 127.0.0.1 - - [21/Jul/2025 15:35:59] "[36mGET /swaggerui/favicon-32x32.png HTTP/1.1[0m" 304 -
+2025-07-21 15:36:06,674 [WARNING] <class 'werkzeug.exceptions.HTTPException'>
+2025-07-21 15:36:06,674 [INFO] 127.0.0.1 - - [21/Jul/2025 15:36:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-21 15:39:40,095 [INFO]  * Detected change in 'C:\\Users\\Ku\\KuProjectPython\\kinobaza\\tests\\test_auth.py', reloading
+2025-07-21 15:39:40,174 [INFO]  * Restarting with stat
+2025-07-21 15:39:40,751 [WARNING]  * Debugger is active!
+2025-07-21 15:39:40,753 [INFO]  * Debugger PIN: 213-658-956
+2025-07-21 15:46:13,462 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-21 15:46:13,462 [INFO] [33mPress CTRL+C to quit[0m
+2025-07-21 15:46:13,463 [INFO]  * Restarting with stat
+2025-07-21 15:46:14,101 [WARNING]  * Debugger is active!
+2025-07-21 15:46:14,102 [INFO]  * Debugger PIN: 213-658-956
+2025-07-21 15:52:30,838 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-21 15:52:30,838 [INFO] [33mPress CTRL+C to quit[0m
+2025-07-21 15:52:30,839 [INFO]  * Restarting with stat
+2025-07-21 15:52:31,485 [WARNING]  * Debugger is active!
+2025-07-21 15:52:31,487 [INFO]  * Debugger PIN: 213-658-956
+2025-07-21 15:52:32,530 [INFO] 127.0.0.1 - - [21/Jul/2025 15:52:32] "GET / HTTP/1.1" 200 -
+2025-07-21 15:52:32,641 [INFO] 127.0.0.1 - - [21/Jul/2025 15:52:32] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+2025-07-21 15:52:32,642 [INFO] 127.0.0.1 - - [21/Jul/2025 15:52:32] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+2025-07-21 15:52:32,643 [INFO] 127.0.0.1 - - [21/Jul/2025 15:52:32] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-07-21 15:52:32,644 [INFO] 127.0.0.1 - - [21/Jul/2025 15:52:32] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-07-21 15:52:32,825 [INFO] 127.0.0.1 - - [21/Jul/2025 15:52:32] "GET /swagger.json HTTP/1.1" 200 -
+2025-07-21 15:52:35,335 [WARNING] <class 'werkzeug.exceptions.HTTPException'>
+2025-07-21 15:52:35,335 [INFO] 127.0.0.1 - - [21/Jul/2025 15:52:35] "[33mGET /docs HTTP/1.1[0m" 404 -
+2025-07-21 15:58:08,194 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-21 15:58:08,194 [INFO] [33mPress CTRL+C to quit[0m
+2025-07-21 15:58:08,195 [INFO]  * Restarting with stat
+2025-07-21 15:58:08,775 [WARNING]  * Debugger is active!
+2025-07-21 15:58:08,777 [INFO]  * Debugger PIN: 213-658-956
+2025-07-21 15:58:10,136 [INFO] 127.0.0.1 - - [21/Jul/2025 15:58:10] "GET / HTTP/1.1" 200 -
+2025-07-21 15:58:10,227 [INFO] 127.0.0.1 - - [21/Jul/2025 15:58:10] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+2025-07-21 15:58:10,231 [INFO] 127.0.0.1 - - [21/Jul/2025 15:58:10] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+2025-07-21 15:58:10,231 [INFO] 127.0.0.1 - - [21/Jul/2025 15:58:10] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-07-21 15:58:10,231 [INFO] 127.0.0.1 - - [21/Jul/2025 15:58:10] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-07-21 15:58:10,387 [INFO] 127.0.0.1 - - [21/Jul/2025 15:58:10] "GET /swagger.json HTTP/1.1" 200 -
+2025-07-21 15:58:36,076 [WARNING] <class 'werkzeug.exceptions.HTTPException'>
+2025-07-21 15:58:36,077 [INFO] 127.0.0.1 - - [21/Jul/2025 15:58:36] "[33mGET /docs HTTP/1.1[0m" 404 -
+2025-07-21 15:59:22,924 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-21 15:59:22,924 [INFO] [33mPress CTRL+C to quit[0m
+2025-07-21 15:59:22,925 [INFO]  * Restarting with stat
+2025-07-21 15:59:23,515 [WARNING]  * Debugger is active!
+2025-07-21 15:59:23,518 [INFO]  * Debugger PIN: 213-658-956
+2025-07-21 15:59:35,764 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-21 15:59:35,765 [INFO] [33mPress CTRL+C to quit[0m
+2025-07-21 15:59:39,268 [INFO] 127.0.0.1 - - [21/Jul/2025 15:59:39] "GET / HTTP/1.1" 200 -
+2025-07-21 15:59:39,411 [INFO] 127.0.0.1 - - [21/Jul/2025 15:59:39] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+2025-07-21 15:59:39,414 [INFO] 127.0.0.1 - - [21/Jul/2025 15:59:39] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-07-21 15:59:39,415 [INFO] 127.0.0.1 - - [21/Jul/2025 15:59:39] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-07-21 15:59:39,416 [INFO] 127.0.0.1 - - [21/Jul/2025 15:59:39] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+2025-07-21 15:59:39,572 [INFO] 127.0.0.1 - - [21/Jul/2025 15:59:39] "GET /swagger.json HTTP/1.1" 200 -
+2025-07-21 16:01:19,155 [INFO] 127.0.0.1 - - [21/Jul/2025 16:01:19] "[31m[1mPOST /movies/ HTTP/1.1[0m" 401 -
+2025-07-21 16:05:55,342 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-21 16:05:55,342 [INFO] [33mPress CTRL+C to quit[0m
+2025-07-21 16:05:55,343 [INFO]  * Restarting with stat
+2025-07-21 16:05:55,922 [WARNING]  * Debugger is active!
+2025-07-21 16:05:55,923 [INFO]  * Debugger PIN: 213-658-956
+2025-07-21 16:05:56,924 [INFO] 127.0.0.1 - - [21/Jul/2025 16:05:56] "GET / HTTP/1.1" 200 -
+2025-07-21 16:05:56,961 [INFO] 127.0.0.1 - - [21/Jul/2025 16:05:56] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+2025-07-21 16:05:56,975 [INFO] 127.0.0.1 - - [21/Jul/2025 16:05:56] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+2025-07-21 16:05:56,976 [INFO] 127.0.0.1 - - [21/Jul/2025 16:05:56] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-07-21 16:05:56,985 [INFO] 127.0.0.1 - - [21/Jul/2025 16:05:56] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-07-21 16:05:57,131 [INFO] 127.0.0.1 - - [21/Jul/2025 16:05:57] "GET /swagger.json HTTP/1.1" 200 -
+2025-07-21 16:06:11,189 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-21 16:06:11,189 [INFO] [33mPress CTRL+C to quit[0m
+2025-07-21 16:06:11,190 [INFO]  * Restarting with stat
+2025-07-21 16:06:13,587 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-21 16:06:13,587 [INFO] [33mPress CTRL+C to quit[0m
+2025-07-21 16:06:13,587 [INFO]  * Restarting with stat
+2025-07-21 16:06:14,157 [WARNING]  * Debugger is active!
+2025-07-21 16:06:14,159 [INFO]  * Debugger PIN: 213-658-956
+2025-07-21 16:06:17,472 [INFO] 127.0.0.1 - - [21/Jul/2025 16:06:17] "GET / HTTP/1.1" 200 -
+2025-07-21 16:06:17,570 [INFO] 127.0.0.1 - - [21/Jul/2025 16:06:17] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+2025-07-21 16:06:17,571 [INFO] 127.0.0.1 - - [21/Jul/2025 16:06:17] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+2025-07-21 16:06:17,571 [INFO] 127.0.0.1 - - [21/Jul/2025 16:06:17] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-07-21 16:06:17,573 [INFO] 127.0.0.1 - - [21/Jul/2025 16:06:17] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-07-21 16:06:17,722 [INFO] 127.0.0.1 - - [21/Jul/2025 16:06:17] "GET /swagger.json HTTP/1.1" 200 -
+2025-07-21 16:07:59,206 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-21 16:07:59,207 [INFO] [33mPress CTRL+C to quit[0m
+2025-07-21 16:08:00,787 [INFO] 127.0.0.1 - - [21/Jul/2025 16:08:00] "GET / HTTP/1.1" 200 -
+2025-07-21 16:08:00,878 [INFO] 127.0.0.1 - - [21/Jul/2025 16:08:00] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+2025-07-21 16:08:00,879 [INFO] 127.0.0.1 - - [21/Jul/2025 16:08:00] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-07-21 16:08:00,882 [INFO] 127.0.0.1 - - [21/Jul/2025 16:08:00] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-07-21 16:08:00,882 [INFO] 127.0.0.1 - - [21/Jul/2025 16:08:00] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+2025-07-21 16:08:01,028 [INFO] 127.0.0.1 - - [21/Jul/2025 16:08:01] "GET /swagger.json HTTP/1.1" 200 -
+2025-07-21 16:08:21,921 [DEBUG] GET /movies — page=1, per_page=10, director=None, genre=None, sort=None
+2025-07-21 16:08:21,929 [INFO] 127.0.0.1 - - [21/Jul/2025 16:08:21] "GET /movies/ HTTP/1.1" 200 -
+2025-07-21 16:08:34,564 [DEBUG] GET /movies — page=1, per_page=10, director=None, genre=None, sort=None
+2025-07-21 16:08:34,566 [INFO] 127.0.0.1 - - [21/Jul/2025 16:08:34] "GET /movies/ HTTP/1.1" 200 -
+2025-07-21 16:11:39,021 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-21 16:11:39,022 [INFO] [33mPress CTRL+C to quit[0m
+2025-07-21 16:11:40,677 [INFO] 127.0.0.1 - - [21/Jul/2025 16:11:40] "GET / HTTP/1.1" 200 -
+2025-07-21 16:11:40,826 [INFO] 127.0.0.1 - - [21/Jul/2025 16:11:40] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+2025-07-21 16:11:40,830 [INFO] 127.0.0.1 - - [21/Jul/2025 16:11:40] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-07-21 16:11:40,831 [INFO] 127.0.0.1 - - [21/Jul/2025 16:11:40] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-07-21 16:11:40,832 [INFO] 127.0.0.1 - - [21/Jul/2025 16:11:40] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+2025-07-21 16:11:40,977 [INFO] 127.0.0.1 - - [21/Jul/2025 16:11:40] "GET /swagger.json HTTP/1.1" 200 -
+2025-07-21 16:20:14,953 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-21 16:20:14,954 [INFO] [33mPress CTRL+C to quit[0m
+2025-07-21 16:20:14,955 [INFO]  * Restarting with stat
+2025-07-21 16:20:15,522 [WARNING]  * Debugger is active!
+2025-07-21 16:20:15,524 [INFO]  * Debugger PIN: 213-658-956
+2025-07-21 16:20:17,154 [INFO] 127.0.0.1 - - [21/Jul/2025 16:20:17] "GET / HTTP/1.1" 200 -
+2025-07-21 16:20:17,298 [INFO] 127.0.0.1 - - [21/Jul/2025 16:20:17] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+2025-07-21 16:20:17,301 [INFO] 127.0.0.1 - - [21/Jul/2025 16:20:17] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+2025-07-21 16:20:17,302 [INFO] 127.0.0.1 - - [21/Jul/2025 16:20:17] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-07-21 16:20:17,303 [INFO] 127.0.0.1 - - [21/Jul/2025 16:20:17] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-07-21 16:20:17,460 [INFO] 127.0.0.1 - - [21/Jul/2025 16:20:17] "GET /swagger.json HTTP/1.1" 200 -
+2025-07-21 16:32:30,502 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-21 16:32:30,502 [INFO] [33mPress CTRL+C to quit[0m
+2025-07-21 16:32:32,452 [INFO] 127.0.0.1 - - [21/Jul/2025 16:32:32] "GET / HTTP/1.1" 200 -
+2025-07-21 16:32:32,606 [INFO] 127.0.0.1 - - [21/Jul/2025 16:32:32] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+2025-07-21 16:32:32,607 [INFO] 127.0.0.1 - - [21/Jul/2025 16:32:32] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+2025-07-21 16:32:32,607 [INFO] 127.0.0.1 - - [21/Jul/2025 16:32:32] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-07-21 16:32:32,608 [INFO] 127.0.0.1 - - [21/Jul/2025 16:32:32] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-07-21 16:32:32,786 [INFO] 127.0.0.1 - - [21/Jul/2025 16:32:32] "GET /swagger.json HTTP/1.1" 200 -
+2025-07-21 16:38:59,095 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-21 16:38:59,095 [INFO] [33mPress CTRL+C to quit[0m
+2025-07-21 16:38:59,096 [INFO]  * Restarting with stat
+2025-07-21 16:38:59,667 [WARNING]  * Debugger is active!
+2025-07-21 16:38:59,669 [INFO]  * Debugger PIN: 213-658-956
+2025-07-21 16:39:00,861 [INFO] 127.0.0.1 - - [21/Jul/2025 16:39:00] "GET / HTTP/1.1" 200 -
+2025-07-21 16:39:00,896 [INFO] 127.0.0.1 - - [21/Jul/2025 16:39:00] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+2025-07-21 16:39:00,899 [INFO] 127.0.0.1 - - [21/Jul/2025 16:39:00] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+2025-07-21 16:39:00,900 [INFO] 127.0.0.1 - - [21/Jul/2025 16:39:00] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-07-21 16:39:00,913 [INFO] 127.0.0.1 - - [21/Jul/2025 16:39:00] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-07-21 16:39:01,071 [INFO] 127.0.0.1 - - [21/Jul/2025 16:39:01] "GET /swagger.json HTTP/1.1" 200 -
+2025-07-21 16:39:08,447 [INFO] 127.0.0.1 - - [21/Jul/2025 16:39:08] "GET / HTTP/1.1" 200 -
+2025-07-21 16:39:08,485 [INFO] 127.0.0.1 - - [21/Jul/2025 16:39:08] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+2025-07-21 16:39:08,498 [INFO] 127.0.0.1 - - [21/Jul/2025 16:39:08] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+2025-07-21 16:39:08,498 [INFO] 127.0.0.1 - - [21/Jul/2025 16:39:08] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-07-21 16:39:08,499 [INFO] 127.0.0.1 - - [21/Jul/2025 16:39:08] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-07-21 16:39:08,564 [INFO] 127.0.0.1 - - [21/Jul/2025 16:39:08] "GET /swagger.json HTTP/1.1" 200 -
+2025-07-21 16:39:08,566 [INFO] 127.0.0.1 - - [21/Jul/2025 16:39:08] "[36mGET /swaggerui/favicon-32x32.png HTTP/1.1[0m" 304 -
+2025-07-21 16:39:09,191 [INFO] 127.0.0.1 - - [21/Jul/2025 16:39:09] "GET / HTTP/1.1" 200 -
+2025-07-21 16:39:09,226 [INFO] 127.0.0.1 - - [21/Jul/2025 16:39:09] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+2025-07-21 16:39:09,240 [INFO] 127.0.0.1 - - [21/Jul/2025 16:39:09] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+2025-07-21 16:39:09,241 [INFO] 127.0.0.1 - - [21/Jul/2025 16:39:09] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-07-21 16:39:09,241 [INFO] 127.0.0.1 - - [21/Jul/2025 16:39:09] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-07-21 16:39:09,273 [INFO] 127.0.0.1 - - [21/Jul/2025 16:39:09] "GET /swagger.json HTTP/1.1" 200 -
+2025-07-21 16:39:09,279 [INFO] 127.0.0.1 - - [21/Jul/2025 16:39:09] "[36mGET /swaggerui/favicon-32x32.png HTTP/1.1[0m" 304 -
+2025-07-21 16:39:09,380 [INFO] 127.0.0.1 - - [21/Jul/2025 16:39:09] "GET / HTTP/1.1" 200 -
+2025-07-21 16:39:09,433 [INFO] 127.0.0.1 - - [21/Jul/2025 16:39:09] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+2025-07-21 16:39:09,434 [INFO] 127.0.0.1 - - [21/Jul/2025 16:39:09] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+2025-07-21 16:39:09,435 [INFO] 127.0.0.1 - - [21/Jul/2025 16:39:09] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-07-21 16:39:09,437 [INFO] 127.0.0.1 - - [21/Jul/2025 16:39:09] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-07-21 16:39:09,468 [INFO] 127.0.0.1 - - [21/Jul/2025 16:39:09] "GET /swagger.json HTTP/1.1" 200 -
+2025-07-21 16:39:09,475 [INFO] 127.0.0.1 - - [21/Jul/2025 16:39:09] "[36mGET /swaggerui/favicon-32x32.png HTTP/1.1[0m" 304 -
+2025-07-21 16:39:09,542 [INFO] 127.0.0.1 - - [21/Jul/2025 16:39:09] "GET / HTTP/1.1" 200 -
+2025-07-21 16:39:09,579 [INFO] 127.0.0.1 - - [21/Jul/2025 16:39:09] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+2025-07-21 16:39:09,592 [INFO] 127.0.0.1 - - [21/Jul/2025 16:39:09] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-07-21 16:39:09,592 [INFO] 127.0.0.1 - - [21/Jul/2025 16:39:09] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+2025-07-21 16:39:09,595 [INFO] 127.0.0.1 - - [21/Jul/2025 16:39:09] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-07-21 16:39:09,634 [INFO] 127.0.0.1 - - [21/Jul/2025 16:39:09] "GET /swagger.json HTTP/1.1" 200 -
+2025-07-21 16:39:09,636 [INFO] 127.0.0.1 - - [21/Jul/2025 16:39:09] "[36mGET /swaggerui/favicon-32x32.png HTTP/1.1[0m" 304 -
+2025-07-21 16:39:09,707 [INFO] 127.0.0.1 - - [21/Jul/2025 16:39:09] "GET / HTTP/1.1" 200 -
+2025-07-21 16:39:09,745 [INFO] 127.0.0.1 - - [21/Jul/2025 16:39:09] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+2025-07-21 16:39:09,758 [INFO] 127.0.0.1 - - [21/Jul/2025 16:39:09] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+2025-07-21 16:39:09,758 [INFO] 127.0.0.1 - - [21/Jul/2025 16:39:09] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-07-21 16:39:09,759 [INFO] 127.0.0.1 - - [21/Jul/2025 16:39:09] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-07-21 16:39:09,794 [INFO] 127.0.0.1 - - [21/Jul/2025 16:39:09] "GET /swagger.json HTTP/1.1" 200 -
+2025-07-21 16:39:09,797 [INFO] 127.0.0.1 - - [21/Jul/2025 16:39:09] "[36mGET /swaggerui/favicon-32x32.png HTTP/1.1[0m" 304 -
+2025-07-21 16:39:22,170 [INFO]  * Detected change in 'C:\\Users\\Ku\\KuProjectPython\\kinobaza\\app\\views\\auth.py', reloading
+2025-07-21 16:39:22,289 [INFO]  * Restarting with stat
+2025-07-21 16:39:22,869 [WARNING]  * Debugger is active!
+2025-07-21 16:39:22,870 [INFO]  * Debugger PIN: 213-658-956
+2025-07-21 16:39:46,425 [INFO]  * Detected change in 'C:\\Users\\Ku\\KuProjectPython\\kinobaza\\app\\views\\auth.py', reloading
+2025-07-21 16:39:46,509 [INFO]  * Restarting with stat
+2025-07-21 16:39:47,110 [WARNING]  * Debugger is active!
+2025-07-21 16:39:47,112 [INFO]  * Debugger PIN: 213-658-956
+2025-07-21 16:41:14,118 [INFO]  * Detected change in 'C:\\Users\\Ku\\KuProjectPython\\kinobaza\\app\\views\\auth.py', reloading
+2025-07-21 16:41:14,233 [INFO]  * Restarting with stat
+2025-07-21 16:41:14,845 [WARNING]  * Debugger is active!
+2025-07-21 16:41:14,847 [INFO]  * Debugger PIN: 213-658-956
+2025-07-21 16:41:25,105 [INFO]  * Detected change in 'C:\\Users\\Ku\\KuProjectPython\\kinobaza\\app\\views\\auth.py', reloading
+2025-07-21 16:41:25,189 [INFO]  * Restarting with stat
+2025-07-21 16:41:25,791 [WARNING]  * Debugger is active!
+2025-07-21 16:41:25,792 [INFO]  * Debugger PIN: 213-658-956
+2025-07-21 16:41:47,261 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-21 16:41:47,262 [INFO] [33mPress CTRL+C to quit[0m
+2025-07-21 16:41:48,595 [INFO] 127.0.0.1 - - [21/Jul/2025 16:41:48] "GET / HTTP/1.1" 200 -
+2025-07-21 16:41:48,662 [INFO] 127.0.0.1 - - [21/Jul/2025 16:41:48] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+2025-07-21 16:41:48,687 [INFO] 127.0.0.1 - - [21/Jul/2025 16:41:48] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+2025-07-21 16:41:48,688 [INFO] 127.0.0.1 - - [21/Jul/2025 16:41:48] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-07-21 16:41:48,692 [INFO] 127.0.0.1 - - [21/Jul/2025 16:41:48] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-07-21 16:41:48,839 [INFO] 127.0.0.1 - - [21/Jul/2025 16:41:48] "GET /swagger.json HTTP/1.1" 200 -
+2025-07-21 16:42:41,074 [INFO] 127.0.0.1 - - [21/Jul/2025 16:42:41] "[35m[1mPOST /auth/register HTTP/1.1[0m" 201 -
+2025-07-21 16:43:23,166 [INFO] 127.0.0.1 - - [21/Jul/2025 16:43:23] "POST /auth/login HTTP/1.1" 200 -
+2025-07-21 17:26:12,494 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-21 17:26:12,494 [INFO] [33mPress CTRL+C to quit[0m
+2025-07-21 17:26:12,495 [INFO]  * Restarting with stat
+2025-07-21 17:26:13,093 [WARNING]  * Debugger is active!
+2025-07-21 17:26:13,094 [INFO]  * Debugger PIN: 213-658-956
+2025-07-21 17:26:14,083 [INFO] 127.0.0.1 - - [21/Jul/2025 17:26:14] "GET / HTTP/1.1" 200 -
+2025-07-21 17:26:14,124 [INFO] 127.0.0.1 - - [21/Jul/2025 17:26:14] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+2025-07-21 17:26:14,140 [INFO] 127.0.0.1 - - [21/Jul/2025 17:26:14] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-07-21 17:26:14,140 [INFO] 127.0.0.1 - - [21/Jul/2025 17:26:14] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+2025-07-21 17:26:14,154 [INFO] 127.0.0.1 - - [21/Jul/2025 17:26:14] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-07-21 17:26:14,306 [INFO] 127.0.0.1 - - [21/Jul/2025 17:26:14] "GET /swagger.json HTTP/1.1" 200 -
+2025-07-21 17:28:58,352 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-21 17:28:58,353 [INFO] [33mPress CTRL+C to quit[0m
+2025-07-21 17:28:59,580 [INFO] 127.0.0.1 - - [21/Jul/2025 17:28:59] "GET / HTTP/1.1" 200 -
+2025-07-21 17:28:59,676 [INFO] 127.0.0.1 - - [21/Jul/2025 17:28:59] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+2025-07-21 17:28:59,678 [INFO] 127.0.0.1 - - [21/Jul/2025 17:28:59] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+2025-07-21 17:28:59,681 [INFO] 127.0.0.1 - - [21/Jul/2025 17:28:59] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-07-21 17:28:59,681 [INFO] 127.0.0.1 - - [21/Jul/2025 17:28:59] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-07-21 17:28:59,831 [INFO] 127.0.0.1 - - [21/Jul/2025 17:28:59] "GET /swagger.json HTTP/1.1" 200 -
+2025-07-21 17:29:36,876 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-21 17:29:36,876 [INFO] [33mPress CTRL+C to quit[0m
+2025-07-21 17:29:38,625 [INFO] 127.0.0.1 - - [21/Jul/2025 17:29:38] "GET / HTTP/1.1" 200 -
+2025-07-21 17:29:38,690 [INFO] 127.0.0.1 - - [21/Jul/2025 17:29:38] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+2025-07-21 17:29:38,721 [INFO] 127.0.0.1 - - [21/Jul/2025 17:29:38] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+2025-07-21 17:29:38,721 [INFO] 127.0.0.1 - - [21/Jul/2025 17:29:38] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-07-21 17:29:38,722 [INFO] 127.0.0.1 - - [21/Jul/2025 17:29:38] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-07-21 17:29:38,848 [INFO] 127.0.0.1 - - [21/Jul/2025 17:29:38] "GET /swagger.json HTTP/1.1" 200 -
+2025-07-21 17:29:38,849 [INFO] 127.0.0.1 - - [21/Jul/2025 17:29:38] "[36mGET /swaggerui/favicon-32x32.png HTTP/1.1[0m" 304 -
+2025-07-21 17:30:39,534 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-21 17:30:39,534 [INFO] [33mPress CTRL+C to quit[0m
+2025-07-21 17:30:39,535 [INFO]  * Restarting with stat
+2025-07-21 17:30:40,111 [WARNING]  * Debugger is active!
+2025-07-21 17:30:40,113 [INFO]  * Debugger PIN: 213-658-956
+2025-07-21 17:30:41,057 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-21 17:30:41,058 [INFO] [33mPress CTRL+C to quit[0m
+2025-07-21 17:30:41,058 [INFO]  * Restarting with stat
+2025-07-22 13:35:55,790 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-22 13:35:55,791 [INFO] [33mPress CTRL+C to quit[0m
+2025-07-22 13:35:55,791 [INFO]  * Restarting with stat
+2025-07-22 13:35:56,391 [WARNING]  * Debugger is active!
+2025-07-22 13:35:56,393 [INFO]  * Debugger PIN: 213-658-956
+2025-07-22 13:35:57,712 [INFO] 127.0.0.1 - - [22/Jul/2025 13:35:57] "GET / HTTP/1.1" 200 -
+2025-07-22 13:35:57,808 [INFO] 127.0.0.1 - - [22/Jul/2025 13:35:57] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+2025-07-22 13:35:57,809 [INFO] 127.0.0.1 - - [22/Jul/2025 13:35:57] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-07-22 13:35:57,809 [INFO] 127.0.0.1 - - [22/Jul/2025 13:35:57] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+2025-07-22 13:35:57,810 [INFO] 127.0.0.1 - - [22/Jul/2025 13:35:57] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-07-22 13:35:57,971 [INFO] 127.0.0.1 - - [22/Jul/2025 13:35:57] "GET /swagger.json HTTP/1.1" 200 -
+2025-07-22 13:37:41,500 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-22 13:37:41,501 [INFO] [33mPress CTRL+C to quit[0m
+2025-07-22 13:37:41,501 [INFO]  * Restarting with stat
+2025-07-22 13:37:42,098 [WARNING]  * Debugger is active!
+2025-07-22 13:37:42,100 [INFO]  * Debugger PIN: 213-658-956
+2025-07-22 13:37:43,156 [INFO] 127.0.0.1 - - [22/Jul/2025 13:37:43] "GET / HTTP/1.1" 200 -
+2025-07-22 13:37:43,302 [INFO] 127.0.0.1 - - [22/Jul/2025 13:37:43] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+2025-07-22 13:37:43,305 [INFO] 127.0.0.1 - - [22/Jul/2025 13:37:43] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+2025-07-22 13:37:43,306 [INFO] 127.0.0.1 - - [22/Jul/2025 13:37:43] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-07-22 13:37:43,306 [INFO] 127.0.0.1 - - [22/Jul/2025 13:37:43] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-07-22 13:37:43,484 [INFO] 127.0.0.1 - - [22/Jul/2025 13:37:43] "GET /swagger.json HTTP/1.1" 200 -
+2025-07-22 13:44:36,228 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-22 13:44:36,229 [INFO] [33mPress CTRL+C to quit[0m
+2025-07-22 13:44:36,229 [INFO]  * Restarting with stat
+2025-07-22 13:44:36,816 [WARNING]  * Debugger is active!
+2025-07-22 13:44:36,817 [INFO]  * Debugger PIN: 213-658-956
+2025-07-22 13:44:37,788 [INFO] 127.0.0.1 - - [22/Jul/2025 13:44:37] "GET / HTTP/1.1" 200 -
+2025-07-22 13:44:37,927 [INFO] 127.0.0.1 - - [22/Jul/2025 13:44:37] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-07-22 13:44:37,929 [INFO] 127.0.0.1 - - [22/Jul/2025 13:44:37] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+2025-07-22 13:44:37,930 [INFO] 127.0.0.1 - - [22/Jul/2025 13:44:37] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+2025-07-22 13:44:37,932 [INFO] 127.0.0.1 - - [22/Jul/2025 13:44:37] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-07-22 13:44:38,087 [INFO] 127.0.0.1 - - [22/Jul/2025 13:44:38] "GET /swagger.json HTTP/1.1" 200 -
+2025-07-22 13:45:42,957 [INFO] 127.0.0.1 - - [22/Jul/2025 13:45:42] "GET /swagger.json HTTP/1.1" 200 -
+2025-07-22 14:11:28,966 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-22 14:11:28,968 [INFO] [33mPress CTRL+C to quit[0m
+2025-07-22 14:11:31,714 [INFO] 127.0.0.1 - - [22/Jul/2025 14:11:31] "GET / HTTP/1.1" 200 -
+2025-07-22 14:11:31,837 [INFO] 127.0.0.1 - - [22/Jul/2025 14:11:31] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+2025-07-22 14:11:31,841 [INFO] 127.0.0.1 - - [22/Jul/2025 14:11:31] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-07-22 14:11:31,841 [INFO] 127.0.0.1 - - [22/Jul/2025 14:11:31] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-07-22 14:11:31,842 [INFO] 127.0.0.1 - - [22/Jul/2025 14:11:31] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+2025-07-22 14:11:31,990 [INFO] 127.0.0.1 - - [22/Jul/2025 14:11:31] "GET /swagger.json HTTP/1.1" 200 -
+2025-07-22 14:11:37,073 [DEBUG] GET /movies — page=1, per_page=10, director=None, genre=None, sort=None
+2025-07-22 14:11:37,082 [INFO] 127.0.0.1 - - [22/Jul/2025 14:11:37] "GET /movies/ HTTP/1.1" 200 -
+2025-07-22 14:11:46,400 [WARNING] <class 'werkzeug.exceptions.HTTPException'>
+2025-07-22 14:11:46,401 [INFO] 127.0.0.1 - - [22/Jul/2025 14:11:46] "[33mGET /movie HTTP/1.1[0m" 404 -
+2025-07-22 14:11:51,843 [INFO] 127.0.0.1 - - [22/Jul/2025 14:11:51] "[33mGET /movies/3 HTTP/1.1[0m" 404 -
+2025-07-22 14:13:43,014 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-22 14:13:43,015 [INFO] [33mPress CTRL+C to quit[0m
+2025-07-22 14:13:51,364 [INFO] 127.0.0.1 - - [22/Jul/2025 14:13:51] "GET / HTTP/1.1" 200 -
+2025-07-22 14:13:51,495 [INFO] 127.0.0.1 - - [22/Jul/2025 14:13:51] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+2025-07-22 14:13:51,497 [INFO] 127.0.0.1 - - [22/Jul/2025 14:13:51] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-07-22 14:13:51,500 [INFO] 127.0.0.1 - - [22/Jul/2025 14:13:51] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+2025-07-22 14:13:51,500 [INFO] 127.0.0.1 - - [22/Jul/2025 14:13:51] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-07-22 14:13:51,652 [INFO] 127.0.0.1 - - [22/Jul/2025 14:13:51] "GET /swagger.json HTTP/1.1" 200 -
+2025-07-22 14:13:56,314 [DEBUG] GET /movies — page=1, per_page=10, director=None, genre=None, sort=None
+2025-07-22 14:13:56,321 [INFO] 127.0.0.1 - - [22/Jul/2025 14:13:56] "GET /movies/ HTTP/1.1" 200 -
+2025-07-22 14:14:00,543 [INFO] 127.0.0.1 - - [22/Jul/2025 14:14:00] "[33mGET /movies/3 HTTP/1.1[0m" 404 -
+2025-07-22 14:14:56,819 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-22 14:14:56,819 [INFO] [33mPress CTRL+C to quit[0m
+2025-07-22 14:14:56,820 [INFO]  * Restarting with stat
+2025-07-22 14:14:57,389 [WARNING]  * Debugger is active!
+2025-07-22 14:14:57,391 [INFO]  * Debugger PIN: 213-658-956
+2025-07-22 14:15:36,336 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-22 14:15:36,336 [INFO] [33mPress CTRL+C to quit[0m
+2025-07-22 14:15:36,337 [INFO]  * Restarting with stat
+2025-07-22 14:15:36,912 [WARNING]  * Debugger is active!
+2025-07-22 14:15:36,914 [INFO]  * Debugger PIN: 213-658-956
+2025-07-22 14:15:38,277 [INFO] 127.0.0.1 - - [22/Jul/2025 14:15:38] "GET / HTTP/1.1" 200 -
+2025-07-22 14:15:38,334 [INFO] 127.0.0.1 - - [22/Jul/2025 14:15:38] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+2025-07-22 14:15:38,340 [INFO] 127.0.0.1 - - [22/Jul/2025 14:15:38] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-07-22 14:15:38,360 [INFO] 127.0.0.1 - - [22/Jul/2025 14:15:38] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+2025-07-22 14:15:38,363 [INFO] 127.0.0.1 - - [22/Jul/2025 14:15:38] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-07-22 14:15:38,523 [INFO] 127.0.0.1 - - [22/Jul/2025 14:15:38] "GET /swagger.json HTTP/1.1" 200 -
+2025-07-22 14:15:43,239 [DEBUG] GET /movies — page=1, per_page=10, director=None, genre=None, sort=None
+2025-07-22 14:15:43,245 [INFO] 127.0.0.1 - - [22/Jul/2025 14:15:43] "GET /movies/ HTTP/1.1" 200 -
+2025-07-22 14:15:49,868 [INFO] 127.0.0.1 - - [22/Jul/2025 14:15:49] "[33mGET /movies/2 HTTP/1.1[0m" 404 -

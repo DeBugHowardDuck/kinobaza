@@ -1,11 +1,27 @@
 from flask import request
 from flask_restx import Resource, Namespace
 from marshmallow import ValidationError
+from flask_restx import fields
 
+from app.extensions.extensions import api
 from app.schemas.genre import GenreSchema, GenreRequestSchema
 from app.dao.genre_dao import GenreDAO
 from app.services.genre_service import GenreService
 from app.extensions.extensions import db
+
+
+genre_model = api.model("GenreRequest", {
+    "name": fields.String(required=True, description="Название жанра")
+})
+
+genre_response_model = api.model("GenreResponse", {
+    "id": fields.Integer(description="ID жанра"),
+    "name": fields.String(description="Название жанра")
+})
+
+error_model = api.model("Error", {
+    "message": fields.String(description="Сообщение об ошибке")
+})
 
 genre_ns = Namespace("genres")
 genre_schema = GenreSchema()
@@ -18,6 +34,8 @@ genre_service = GenreService(genre_dao)
 
 @genre_ns.route('/')
 class GenreListView(Resource):
+    @genre_ns.doc(description="Получить все жанры")
+    @genre_ns.marshal_list_with(genre_response_model)
     def get(self):
         """
         Получить все жанры
@@ -25,6 +43,10 @@ class GenreListView(Resource):
         genres = genre_service.get_all()
         return genres_schema.dump(genres), 200
 
+    @genre_ns.doc(description="Добавить жанр")
+    @api.expect(genre_model)
+    @api.marshal_with(genre_response_model, code=201)
+    @api.response(400, "Ошибка валидации", model=error_model)
     def post(self):
         """
         Добавить жанр
@@ -41,6 +63,9 @@ class GenreListView(Resource):
 
 @genre_ns.route('/<int:genre_id>')
 class GenreDetailView(Resource):
+    @genre_ns.doc(description="Получить жанр по ID")
+    @api.marshal_with(genre_response_model)
+    @api.response(404, "Жанр не найден", model=error_model)
     def get(self, genre_id):
         """
         Получить жанр по ID
@@ -50,6 +75,11 @@ class GenreDetailView(Resource):
             return {"message": "Жанр не найден"}, 404
         return genre_schema.dump(genre), 200
 
+    @genre_ns.doc(description="Обновить жанр")
+    @api.expect(genre_model)
+    @api.marshal_with(genre_response_model)
+    @api.response(400, "Ошибка валидации", model=error_model)
+    @api.response(404, "Жанр не найден", model=error_model)
     def put(self, genre_id):
         """
         Обновить жанр
@@ -66,6 +96,9 @@ class GenreDetailView(Resource):
 
         return genre_schema.dump(updated_genre), 200
 
+    @genre_ns.doc(description="Удалить жанр")
+    @api.response(200, "Жанр удалён")
+    @api.response(404, "Жанр не найден", model=error_model)
     def delete(self, genre_id):
         """
         Удалить жанр

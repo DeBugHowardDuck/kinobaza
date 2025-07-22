@@ -35,9 +35,37 @@ movie_model = api.model("MovieRequest", {
     "director_id": fields.Integer(required=True, description="ID режиссёра")
 })
 
+movie_response_model = api.model("MovieResponse", {
+    "id": fields.Integer(description="ID фильма"),
+    "title": fields.String(description="Название фильма"),
+    "description": fields.String(description="Описание"),
+    "trailer": fields.String(description="Ссылка на трейлер"),
+    "year": fields.Integer(description="Год выпуска"),
+    "rating": fields.Float(description="Рейтинг от 0 до 10"),
+    "genre_id": fields.Integer(description="ID жанра"),
+    "director_id": fields.Integer(description="ID режиссёра")
+})
+
+error_model = api.model("Error", {
+    "message": fields.String(description="Сообщение об ошибке")
+})
+
 
 @movie_ns.route('/')
 class MovieListView(Resource):
+    @movie_ns.doc(
+        description="Получить список фильмов с фильтрацией, сортировкой и пагинацией",
+        params={
+            "genre_id": "ID жанра для фильтрации",
+            "director_id": "ID режиссёра для фильтрации",
+            "sort_by": "Сортировка: 'year' или 'rating'",
+            "page": "Номер страницы (по умолчанию 1)",
+            "per_page": "Количество элементов на странице (по умолчанию 10)"
+        },
+        responses={
+            200: "Список фильмов успешно получен"
+        }
+    )
     def get(self):
         """
         Получить список фильмов с фильтрацией, сортировкой и пагинацией
@@ -68,6 +96,9 @@ class MovieListView(Resource):
 
     @auth_required
     @api.expect(movie_model)
+    @api.marshal_with(movie_response_model, code=201)  # успешный ответ
+    @api.response(400, "Ошибка валидации", model=error_model)
+    @api.response(401, "Пользователь не авторизован", model=error_model)
     def post(self):
         """
         Добавить новый фильм
@@ -83,6 +114,13 @@ class MovieListView(Resource):
 
 @movie_ns.route('/<int:movie_id>')
 class MovieDetailView(Resource):
+    @movie_ns.doc(
+        description="Получить фильм по ID",
+        responses={
+            200: ("Фильм найден", movie_response_model),
+            404: "Фильм не найден"
+        }
+    )
     def get(self, movie_id):
         """
             Получить один фильм по ID
@@ -93,6 +131,11 @@ class MovieDetailView(Resource):
         return MovieSchema().dump(movie), 200
 
     @auth_required
+    @api.expect(movie_model)
+    @api.marshal_with(movie_response_model)
+    @api.response(404, "Фильм не найден", model=error_model)
+    @api.response(400, "Ошибка валидации", model=error_model)
+    @api.doc(description="Обновить данные фильма")
     def put(self, movie_id):
         """
         Обновить данные фильма
@@ -110,6 +153,9 @@ class MovieDetailView(Resource):
         return movie_schema.dump(updated_movie), 200
 
     @auth_required
+    @api.response(200, "Фильм удалён")
+    @api.response(404, "Фильм не найден", model=error_model)
+    @api.doc(description="Удалить фильм")
     def delete(self, movie_id):
         """
         Удалить фильм
@@ -121,6 +167,16 @@ class MovieDetailView(Resource):
 
 @movie_ns.route("/search")
 class MovieSearchView(Resource):
+    @movie_ns.doc(
+        description="Поиск фильмов по ключевому слову в названии",
+        params={
+            "q": "Ключевое слово для поиска в названии фильма"
+        },
+        responses={
+            200: "Фильмы найдены",
+            400: "Не задан параметр 'q'"
+        }
+    )
     def get(self):
         """
         Поиск фильмов по ключевому слову в названии
